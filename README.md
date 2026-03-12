@@ -83,24 +83,6 @@ The plugin uses **ItemContainerChanged** (a server-confirmed inventory update) t
 
 ---
 
-## Installation (Developer / Testing)
-
-This plugin is not yet on the Plugin Hub. To run it locally:
-
-1. Clone this repository
-2. Open the project in IntelliJ IDEA with a Java 11+ JDK configured
-3. Run the main method in `src/test/java/com/tanleathertracker/TanLeatherTrackerPluginTest.java`
-4. Log in via the RuneLite launcher that opens
-
----
-
-## Plugin Hub Submission
-
-This plugin is intended for submission to the [RuneLite Plugin Hub](https://github.com/runelite/plugin-hub).
-See the Plugin Hub README for submission requirements.
-
----
-
 ## License
 
 [BSD 2-Clause License](LICENSE)
