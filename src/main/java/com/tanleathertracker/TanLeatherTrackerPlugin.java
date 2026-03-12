@@ -79,7 +79,7 @@ public class TanLeatherTrackerPlugin extends Plugin implements MouseListener
 		return maxCasts;
 	}
 
-	public boolean isHasRelevantItems()
+	public boolean hasRelevantItems()
 	{
 		return hasRelevantItems;
 	}
@@ -198,9 +198,14 @@ public class TanLeatherTrackerPlugin extends Plugin implements MouseListener
 	private int countHides(ItemContainer container)
 	{
 		int count = 0;
-		for (Item item : container.getItems())
+		Item[] items = container.getItems();
+		if (items == null)
 		{
-			if (HIDE_ITEM_IDS.contains(item.getId()))
+			return 0;
+		}
+		for (Item item : items)
+		{
+			if (item != null && HIDE_ITEM_IDS.contains(item.getId()))
 			{
 				count += item.getQuantity();
 			}

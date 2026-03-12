@@ -26,7 +26,7 @@ public class TanLeatherTrackerOverlay extends OverlayPanel
 	@Override
 	public Dimension render(Graphics2D graphics)
 	{
-		if (!config.showOverlay() || !plugin.isHasRelevantItems())
+		if (!config.showOverlay() || !plugin.hasRelevantItems())
 		{
 			return null;
 		}
