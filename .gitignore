@@ -1,0 +1,16 @@
+# Gradle
+build/
+.gradle/
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
