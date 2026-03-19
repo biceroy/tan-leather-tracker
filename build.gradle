@@ -32,9 +32,6 @@ tasks.withType(JavaCompile).configureEach {
 	options.release.set(11)
 }
 
-test {
-	failOnNoDiscoveredTests = false
-}
 
 tasks.register('runClient', JavaExec) {
 	classpath = sourceSets.test.runtimeClasspath
