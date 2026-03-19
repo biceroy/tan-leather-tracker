@@ -83,6 +83,19 @@ The plugin uses **ItemContainerChanged** (a server-confirmed inventory update) t
 
 ---
 
+## Installation
+
+Search for **Tan Leather Cast Tracker** in the [RuneLite Plugin Hub](https://runelite.net/plugin-hub) and click Install.
+
+### Running Locally (Development)
+
+1. Clone this repository
+2. Open the project in IntelliJ IDEA with a Java 11+ JDK configured
+3. Run the main method in `src/test/java/com/tanleathertracker/TanLeatherTrackerPluginTest.java`
+4. Log in via the RuneLite launcher that opens
+
+---
+
 ## License
 
 [BSD 2-Clause License](LICENSE)
