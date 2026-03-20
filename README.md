@@ -3,6 +3,7 @@
 A [RuneLite](https://runelite.net/) external plugin for Old School RuneScape that tracks your **Tan Leather** lunar spell casts per inventory cycle and warns you when you're running low on dragon hides.
 
 ---
+![java_JwY1sE9hmv](https://github.com/user-attachments/assets/9642ed7e-b03d-494f-8e9b-14eb9412f0f3)
 
 ## What It Does
 
